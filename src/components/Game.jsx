@@ -148,9 +148,12 @@ const Game = () => {
 
   return (
     <div className="relative w-96 h-96 bg-black border-2 border-white">
-      {/* Score and Level */}
+      {/* Score, Level, and Version */}
       <div className="absolute top-2 left-2 text-white">
         Score: {score} | Level: {level} | Misses: {misses}
+      </div>
+      <div className="absolute top-2 right-2 text-gray-500 text-xs">
+        v{process.env.REACT_APP_VERSION || '0.2.0'}
       </div>
 
       {/* Power-up Manager */}

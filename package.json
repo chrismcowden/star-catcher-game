@@ -1,6 +1,6 @@
 {
   "name": "star-catcher-game",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://chrismcowden.github.io/star-catcher-game",
   "private": true,
   "dependencies": {
@@ -22,13 +22,18 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.4.1"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  {
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "version:patch": "node scripts/version-bump.js patch",
+      "version:minor": "node scripts/version-bump.js minor",
+      "version:major": "node scripts/version-bump.js major"
+    }
   },
   "eslintConfig": {
     "extends": [
