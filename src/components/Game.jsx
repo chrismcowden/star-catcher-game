@@ -51,7 +51,7 @@ const Game = () => {
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [activePowerUps]);
+  }, [activePowerUps, playerX]);
 
   // Power-up cleanup effect
   useEffect(() => {
@@ -128,7 +128,7 @@ const Game = () => {
     }, getGameSpeed());
 
     return () => clearInterval(gameLoop);
-  }, [playerX, gameOver, score]);
+  }, [playerX, gameOver, score, getGameSpeed, getMaxStars]);
 
   useEffect(() => {
     if (misses >= 3) {
