@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff495576.css",
-    "main.js": "/static/js/main.cdfbc279.js",
-    "static/js/453.85b91d36.chunk.js": "/static/js/453.85b91d36.chunk.js",
-    "index.html": "/index.html",
-    "main.ff495576.css.map": "/static/css/main.ff495576.css.map",
-    "main.cdfbc279.js.map": "/static/js/main.cdfbc279.js.map",
-    "453.85b91d36.chunk.js.map": "/static/js/453.85b91d36.chunk.js.map"
+    "main.css": "/star-catcher-game/static/css/main.ff495576.css",
+    "main.js": "/star-catcher-game/static/js/main.e8adee2a.js",
+    "static/js/453.85b91d36.chunk.js": "/star-catcher-game/static/js/453.85b91d36.chunk.js",
+    "index.html": "/star-catcher-game/index.html",
+    "main.ff495576.css.map": "/star-catcher-game/static/css/main.ff495576.css.map",
+    "main.e8adee2a.js.map": "/star-catcher-game/static/js/main.e8adee2a.js.map",
+    "453.85b91d36.chunk.js.map": "/star-catcher-game/static/js/453.85b91d36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff495576.css",
-    "static/js/main.cdfbc279.js"
+    "static/js/main.e8adee2a.js"
   ]
 }
